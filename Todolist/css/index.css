@@ -1,0 +1,105 @@
+body{
+	background: #fafafa !important;
+}
+ a{
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.header{
+	background: #e8593d;
+	color: white;
+
+}
+ .container{
+	width: 800px !important;
+	
+}
+
+.addtodo input{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.todobtn{
+	padding: 10px 0 ;
+	
+	overflow: auto;
+	
+}
+.todobtn li:nth-child(1){
+	padding-left: 10px;
+}
+.todobtn a{
+	padding: 1px 30px;
+	border-radius: 5px;
+}
+.active{
+	border: 1px solid  #eae1e1;
+}
+
+.todolist-content{
+	background: white;
+}
+.todolist-content p{
+	padding: 5px;
+	border-bottom:1px solid gainsboro ;
+	color: darkred;
+	font-size: 14px;
+}
+
+.todo{
+	padding: 5px;
+	font-size: 16px;
+	border-bottom:1px solid gainsboro ;
+	position: relative;
+	
+}
+.todo strong{
+	vertical-align: 2px;
+	color: gray;
+	position: absolute;
+	right: 40px;
+	top: 10px;
+}
+.todo:hover{
+	background: #fafafa;
+	
+}
+.completed{
+	font-size: 14px;
+	color: gainsboro !important;
+	text-decoration:line-through;
+}
+.todo label{
+	vertical-align: 2px;
+	margin-bottom: 0 !important;
+	padding-left: 5px;
+	color: royalblue;
+	position: relative;
+	z-index: 2;
+	
+}
+.edit{
+	position: absolute;
+	left: 26px;
+	top: 4px;
+	height: 80% !important;
+	background: white;
+	width: 300px !important;
+	z-index: -1;
+}
+.editing{
+	z-index: 5;
+}
+.toggle{
+	width: 16px;
+	height: 16px;
+}
+.todo >span{
+	padding: 5px 5px 0 0;
+	display: none;
+}
+.todo:hover span{
+	display: block;
+}

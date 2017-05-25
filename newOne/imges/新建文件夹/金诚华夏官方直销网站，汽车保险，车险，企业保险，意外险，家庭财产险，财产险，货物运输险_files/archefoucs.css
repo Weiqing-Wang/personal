@@ -1,0 +1,98 @@
+﻿a { text-decoration: none; }
+em { font-style: normal; font-weight: normal; }
+body { min-width: 1000px; background-color: #FFFFFF; color: #6c6c6c; }
+.gg {
+	overflow: hidden;
+	position: relative;
+	height: 321px;
+	width: 840px;
+}
+.ggs {
+	position: absolute;
+	z-index: 4;
+}
+.ggBox {
+	width: 840px;
+	height: 321px;
+}
+    .ggBox a {
+	display: block;
+	width: 840px;
+	height: 321px;
+	position: absolute;
+	opacity: 0.1;
+}
+    .ggBox img {
+	display: block;
+	width: 840px;
+	height: 321px;
+	z-index: 4;
+}
+.ggb {
+	position: absolute;
+	width: 840px;
+	left: 0;
+	bottom: 0;
+	height: 25px;
+	z-index: 4;
+	background-color: #888;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ggBtns {
+	width: 842px;
+	height: 25px;
+	border-left: 1px solid #090908;
+	border-right: 1px solid #6a6a60;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-weight: bold;
+}
+    .ggBtns a {
+	display: block;
+	width: 210px;
+	height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 25px;
+	background-position: 0;
+	position: relative;
+	outline: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-weight: bold;
+	float: left;
+}
+        .ggBtns a em {
+	display: block;
+	width: 210px;
+	height: 25px;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+        .ggBtns a:hover {
+	font-weight: bold;
+}
+        .ggBtns a:focus {
+	outline: none;
+	font-weight: bold;
+}
+        .ggBtns a.ggOn {
+	color: #FFFFFF;
+	background-position: 0 0;
+}
+a.ggOn {
+	background-color: #ff8434;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+}

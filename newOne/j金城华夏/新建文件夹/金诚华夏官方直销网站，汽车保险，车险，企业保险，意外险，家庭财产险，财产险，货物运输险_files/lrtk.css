@@ -1,0 +1,24 @@
+body,ul,ol,li{padding: 0px;margin: 0px}
+.slider{position: relative}
+.slider div{position: relative;text-align: center;padding: 0px;list-style-type: none;margin: 0px;width: 320px;background: #ffffff;height: 269px;overflow: hidden;}
+.slider span{z-index: 99;position: absolute;text-align: center;width: 100%;bottom: 2px;color: #ffffff;font-size: 12px;font-weight: bold}
+.slider .txtbg{position: absolute;filter: alpha(opacity=70);width: 100%;bottom: 0px;background: #000;height: 17px;padding-top: 5px;left: 0px;opacity: 0.7;-moz-opacity: 0.7;-khtml-opacity: 0.7}
+.slider .txtbg img{width: 620px;height: 269px;}
+.hdnum{width: 446px;height: 57px;overflow: hidden;padding-top: 2px}
+.hdnum li{padding: 1px;background-color: #000;width: 86px;float: left;margin:0 0 0 1px;overflow: hidden;}
+.hdnum li img{
+	width: 86px;
+	height: 55px;
+	filter: alpha(opacity=80);
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	margin: 0px;
+	padding: 0px;
+}
+.hdnum li:hover{
+	padding: 0;
+	background-color: #FFFFFF;
+	margin: 0px;
+	border: 2px solid #FFF;
+}

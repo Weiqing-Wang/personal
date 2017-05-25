@@ -1,0 +1,95 @@
+img{
+	max-width: 100%;
+}
+.summary{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(../img/bag.jpg) no-repeat center center;
+	background-size: cover;
+}
+.summary img{
+	border-radius: 100%;
+}
+.summary .text{
+	line-height: 2;
+	text-align: center;
+	color:deepskyblue;
+}
+.summary .text h1{
+	color: darkorange;
+}
+
+
+
+
+.works{
+	background: rgb(244,244,244);
+	height: 100vh;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 5px;
+	
+	
+}
+.works a{
+	font-size: 1.1em;
+}
+@media(max-width:768px) {
+	.works{
+		height: auto;
+		
+	}
+}
+.works h2{
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+.works h3{
+	padding-left: 10px;
+	font-weight: normal;
+	font-size: 1.3em;
+	margin: 5px 0;
+}
+.works img{
+	max-width: 200px;
+	margin-bottom: 5px;
+}
+.works .imagewraper{
+	padding: 10px 10px 5px 10px;
+	background: #fff;
+	text-align: right;
+}
+.works>ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: center;
+}
+.imagewraper h3{
+	text-align: right;
+	margin-left: 10px;
+}
+
+
+
+.contacts{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 3;
+	background: url(../img/666.jpg) no-repeat center center;
+	background-size: cover;
+	color: deepskyblue;
+}
+
+.contacts p>a{
+	color:deepskyblue;
+}

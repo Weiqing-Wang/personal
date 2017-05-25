@@ -1,0 +1,58 @@
+.register{
+    background: url("../imges/zb_03.jpg") no-repeat;
+    height: 650px;
+    width: 100%;
+    -webkit-background-size:100%;
+    background-position: center top;
+    border-top: 3px solid #a92405;
+    border-bottom:3px solid #666 ;
+    background-size:120% ;
+}
+.register_top{
+    margin-left: 720px;
+    margin-top: 55px;
+}
+.register_top span{
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+}
+.register_top a{
+    color: red;
+    text-decoration: underline;
+}
+.sign_up{
+    font-size: 16px;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+.sign_up input{
+    line-height: 26px;
+    width: 206px;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+.sign_up .sign_upl{
+    width: 130px;
+}
+.sign_up img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.sign_up span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.sign_btn{
+    background: url("../imges/zc.jpg") no-repeat;
+    margin-left: 835px;
+    width: 220px;
+    height: 33px;
+    padding-top: 50px;
+}
+.sign_btn input{
+    border: none;
+    background-color: #dedede;
+    margin-right: 5px;
+    vertical-align: middle;
+}
